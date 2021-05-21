@@ -1,0 +1,134 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+   
+    
+
+}
+header{
+    text-align: center;
+    background-color: salmon;
+    color: snow;
+    padding: 5px;
+    margin: 15px;
+    border-radius: 15px;
+}
+.main{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    height: 75vh;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+
+
+}
+.div1{
+    background-color: aqua;
+    border: 2px solid black;
+    width:200px;
+    height: 200px;
+    transition:0.5s;
+    box-shadow: 5px 5px grey;
+    border-radius: 15px;
+}
+.div1:hover{
+    background-color: royalblue;
+    font-family:cursive;
+    
+    width: 250px;
+    height: 250px;
+}
+
+.div2{
+    background-color: rgb(153, 241, 142);
+    border: 2px solid black;
+    width: 200px;
+    height: 200px;
+    transition:0.5s;
+    box-shadow: 5px 5px grey;
+    border-radius: 15px;
+}
+.div2:hover{
+    background-color: rgb(6, 139, 17);
+    font-family:cursive;
+    width: 250px;
+    height: 250px;
+}
+
+.div3{
+    background-color: pink;
+    border: 2px solid black;
+    width: 200px;
+    height: 200px;
+    transition:0.5s;
+    box-shadow: 5px 5px grey;
+    border-radius: 15px;
+}
+.div3:hover{
+    background-color: rgb(116, 7, 101);
+    font-family:cursive;
+    width: 250px;
+    height: 250px;
+}
+
+.div4{
+    background-color: rgb(148, 161, 70);
+    border: 2px solid black;
+    width: 200px;
+    height: 200px;
+    transition:0.5s;
+    box-shadow: 5px 5px grey;
+    border-radius: 15px;
+}
+.div4:hover{
+    background-color: rgb(164, 226, 19);
+    font-family:cursive;
+    width: 250px;
+    height: 250px;
+}
+
+  
+  .live{
+    display: flex;
+      justify-content: center;
+  }
+  .dot{
+    width: 22px;
+    height: 22px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-color: red;
+    animation: blinker 0.5s  infinite;
+    
+  
+  
+    
+  }
+  .blink{
+      text-align: center;
+      font-size: 1.2rem;
+      font-weight: bold;
+      margin-left: 2px;
+      
+     
+      
+  }
+  
+  @keyframes blinker {
+    50% {
+      opacity: 0;
+    }
+  }
+  .update{
+      text-align: center;
+      font-family:fantasy;
+      font-size: 1.5rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 10px;
+  }

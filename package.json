@@ -1,5 +1,6 @@
 {
   "name": "covidlive",
+  "homepage": "https://sainikhilreddykaren.github.io/covidlive",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
